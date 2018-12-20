@@ -30,7 +30,7 @@ function Bio() {
             <p>
               <strong>{author}</strong> is a enthusiastic frontend engineer with
               an interest in UX, accessibility and web performance.{' '}
-              <a href={`https://twitter.com/${social.twitter}`}>
+              <a href={`https://twitter.com/${social.twitter}`} target="_blank">
                 You should follow him on Twitter
               </a>
             </p>
