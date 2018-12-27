@@ -2,6 +2,12 @@
 title: Projects
 ---
 
-## Coming soon...
+## [Twitter mobile](https://mobile.twitter.com) profile search clone
 
-Checkout my [github](https://github.com/jonatns) for now
+[DEMO](https://twitter-profile-pivlunuewx.now.sh/)
+
+![Twitter mobile profile search clone](./twitter-profile.png)
+
+## More coming soon...
+
+## Checkout my other projects at [Github](https://github.com/jonatns) for now
