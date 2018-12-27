@@ -1,7 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import styled from '@emotion/styled'
 
 import { rhythm, scale } from '../utils/typography'
+
+const Wrapper = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  max-width: ${rhythm(24)};
+  padding: ${rhythm(0)} ${rhythm(3 / 4)};
+  @media only screen and (min-width: 768px) {
+    padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
+  }
+`
 
 class Layout extends React.Component {
   render() {
@@ -9,27 +20,31 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     let headerTitle
 
-    const headerNavLinks = navLinks.map(({ title, to }, index) => (
-      <h4
-        key={index}
-        style={{
-          fontFamily: 'Montserrat, sans-serif',
-          marginRight: rhythm(0.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: 'none',
-            textDecoration: 'none',
-            color: 'inherit',
-          }}
-          to={to}
-        >
-          {title}
-        </Link>
-      </h4>
-    ))
+    const headerNavLinks = (
+      <div style={{ display: 'flex' }}>
+        {navLinks.map(({ title, to }, index) => (
+          <h4
+            key={index}
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              marginRight: rhythm(0.5),
+              marginTop: 0,
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: 'none',
+                textDecoration: 'none',
+                color: '#00BFA5',
+              }}
+              to={to}
+            >
+              {title}
+            </Link>
+          </h4>
+        ))}
+      </div>
+    )
 
     if (location.pathname === rootPath) {
       headerTitle = (
@@ -68,14 +83,7 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
+      <Wrapper>
         <header
           style={{
             display: 'flex',
@@ -88,7 +96,7 @@ class Layout extends React.Component {
           {headerNavLinks}
         </header>
         {children}
-      </div>
+      </Wrapper>
     )
   }
 }

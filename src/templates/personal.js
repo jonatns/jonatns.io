@@ -1,12 +1,19 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import styled from '@emotion/styled'
 
 import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
 
-class Experience extends React.Component {
+const Content = styled.div`
+  h4 {
+    color: #757575;
+  }
+`
+
+class Personal extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -21,7 +28,7 @@ class Experience extends React.Component {
       >
         <SEO title={post.frontmatter.title} description={post.excerpt} />
         <h1 style={{ marginBottom: rhythm(1) }}>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Content dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -33,7 +40,7 @@ class Experience extends React.Component {
   }
 }
 
-export default Experience
+export default Personal
 
 export const pageQuery = graphql`
   query PersonalPageBySlug($slug: String!) {

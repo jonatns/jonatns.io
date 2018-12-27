@@ -2,9 +2,7 @@
 title: Experience
 ---
 
-Enthusiastic frontend engineer with 3+ years’ experience developing full-stack web applications for various types of businesses. Great team player and creative thinker with high interest in UX, accessibility and web performance.
-
-###AUGUST 2018 - CURRENT
+####AUGUST 2018 - CURRENT
 
 **_Frontend Engineer | [Prosper Marketplace](https://www.prosper.com/) | San Francisco, CA_**
 
@@ -13,7 +11,7 @@ Enthusiastic frontend engineer with 3+ years’ experience developing full-stack
 - Reduced development time by creating a Dockerized NGINX proxy for running multiple micro-frontends simultaneously in development
 - Led the drive to re-architect large Node/Express/GraphQL code base in order to increase modularity and testing
 
-###APRIL 2017 - JULY 2018
+####APRIL 2017 - JULY 2018
 
 **_Frontend Engineer | [CareLinx](https://www.carelinx.com/) | San Bruno, CA_**
 
@@ -21,26 +19,26 @@ Enthusiastic frontend engineer with 3+ years’ experience developing full-stack
 - Helped my team in the process of refactoring large amounts of legacy code to React 16 in order to increase testability
 - Responsible for maintaining the CareLinx Mobile App in React Native
 
-##MARCH 2017 - APRIL 2017
+####MARCH 2017 - APRIL 2017
 
 **_Software Developer Intern | [CEGsoft](https://home.cegsoft.com/) | Guaynabo, PR_**
 
 - Responsible for improving the UX of the CEGsoft support dashboard by implementing many features in ASP.NET MVC and AngularJS
 
-##July 2016 - NOVEMBER 2016
+####July 2016 - NOVEMBER 2016
 
 **_Full Stack Developer | Self Employed | San Juan, PR_**
 
 - Developed multiple web applications using Ember.js, Node/Express and MongoDB for various clients in order to optimize their business processes
 
-##FEBRUARY 2015 - JULY 2016
+####FEBRUARY 2015 - JULY 2016
 
 **_Web Developer | [PR Web Sites & Systems Inc](http://prwss.com/) | Carolina, PR_**
 
 - Designed and implemented many static web pages
 - Gave IT support to many clients
 
-##JUNE 2015 – JULY 2015
+####JUNE 2015 – JULY 2015
 
 **_Java Developer Intern | [Spotery](https://spotery.com) | San Juan, PR_**
 

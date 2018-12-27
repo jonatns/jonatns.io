@@ -20,7 +20,7 @@ class BlogIndex extends React.Component {
         title={siteTitle}
       >
         <SEO
-          title="All posts"
+          title="Welcome"
           keywords={['blog', 'gatsby', 'javascript', 'react']}
         />
         <Bio />
