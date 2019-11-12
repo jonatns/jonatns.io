@@ -39,7 +39,11 @@ function Bio() {
               types of businesses. Great team player and creative thinker
               interested in UX, accessibility and web performance.
               <br />
-              <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+              <a
+                href={`https://twitter.com/${social.twitter}`}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
                 You should follow him on Twitter
               </a>
             </p>
