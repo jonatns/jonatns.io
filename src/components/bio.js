@@ -35,9 +35,9 @@ function Bio() {
             />
             <p>
               <strong>{author}</strong> is a enthusiastic frontend engineer with
-              3+ years’ experience developing full-stack web applications for
-              various types of businesses. Great team player and creative
-              thinker interested in UX, accessibility and web performance.
+              vast experience developing full-stack web applications for various
+              types of businesses. Great team player and creative thinker
+              interested in UX, accessibility and web performance.
               <br />
               <a href={`https://twitter.com/${social.twitter}`} target="_blank">
                 You should follow him on Twitter
